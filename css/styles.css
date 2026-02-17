@@ -1,0 +1,234 @@
+header {
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 0 100px;
+}
+
+.logoCampus {
+    height: 37px;
+    margin-right: 18px;
+}
+
+.materia, .personaNombre, .grupoIconos {
+    display: flex;
+}
+
+
+.iconos {
+    height: 26px;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+.persona {
+    height: 37px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.personaNombre {
+    width: 28%;
+    display: flex;
+    align-items: center;
+}
+
+.materia h3, .personaNombre h5 {
+    margin: 0;
+    line-height: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    min-width: 0;
+}
+
+.materia {
+    width: 31%;
+    display: flex;
+    align-items: center;  
+}
+
+nav {
+    background-color:#084c85;
+    position: sticky;
+    width: 100%;
+    padding: 0.2cm 0;
+    top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+body {
+    background-color: rgb(244, 244, 244);
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* header + contenido + footer */
+    min-height: 100vh;   
+}
+
+main {
+    flex: 1;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+    margin-right: 18px;
+    white-space: nowrap;
+}
+
+.flecha {
+    height: 15px;
+    margin-top: 6px;
+}
+
+section h2 {
+    text-align: center;
+    padding-top: 18px;
+}
+
+.buscador {
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 1;
+}
+
+.input-con-lupa {
+    position: relative;
+    width: 300px;
+}
+
+.cajaBuscador {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    background: #fefefe;
+}
+
+.icono-lupa {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.botonMostrar {
+  background: none;     
+  border: none;         
+  color: #1158a4;   
+  cursor: pointer;
+}
+
+.cuadrado {
+    width: 302px;
+    height: 302px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;        
+    justify-content: center;       
+    align-items: center;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+
+.fila {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 49px;  
+    display: flex; 
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.fotoPersona {
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 7px;
+}
+
+.cuadrado h4, .cuadrado p {
+    text-align: center;
+}
+
+.botonVer {
+  background-color: #084c85;     
+  border-radius: 5px ;         
+  color: white;   
+  cursor: pointer;
+  align-self: center;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+.botonVer:hover {
+  background-color: #2c41df; 
+  transform: translateY(-5px) scale(1.05); 
+  box-shadow: 0 8px 15px rgba(28, 2, 132, 0.3); 
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.imagenesRedes {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.redes a {
+    text-decoration: none;
+}
+
+.redes {
+    margin-top: 7px;
+}
+
+footer {
+    background-color: #084c85;
+    text-align: center;
+    color: white;
+    padding-top: 11px ;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.iconoFooter {
+  display: flex;
+  align-items: center;  
+  gap: 10px;            
+}
+
+.iconoFooter p {
+    margin: 0;
+}
+
+.iconoContacto {
+    height: 18px;
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;  
+  gap: 30px;          
+}
+
