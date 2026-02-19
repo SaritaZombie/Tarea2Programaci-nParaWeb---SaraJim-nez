@@ -9,6 +9,7 @@ header {
     top: 0;
     z-index: 1000;
     padding: 0 100px;
+    border-top: 4px solid #559fff;
 }
 
 .logoCampus {
@@ -25,6 +26,14 @@ header {
     height: 26px;
     margin-left: 11px;
     margin-right: 11px;
+}
+
+
+#iconos {
+    height: 26px;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 0;
 }
 
 .persona {
@@ -203,6 +212,24 @@ section h2 {
     margin-top: 7px;
 }
 
+
+#primerPie {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffffcc;
+    padding: 10px 0;
+    border-top: 2px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 87px;
+}
+
+#primerPie .botonVer {
+   width: 100px;
+   margin: 0;  
+}
+
 footer {
     background-color: #084c85;
     text-align: center;
@@ -231,4 +258,3 @@ footer {
   justify-content: center;  
   gap: 30px;          
 }
-
